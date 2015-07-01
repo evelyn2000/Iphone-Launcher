@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project Licensed under the 
+	Apache License, Version 2.0 (the "License"); you may not use this file except 
+	in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 
+	Unless required by applicable law or agreed to in writing, software distributed 
+	under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES 
+	OR CONDITIONS OF ANY KIND, either express or implied. See the License for 
+	the specific language governing permissions and limitations under the License. -->
+
+<favorites
+	xmlns:launcher="http://schemas.android.com/apk/res/com.android.iphonelauncher">
+	<!-- For bar screen [0] -->
+
+	<favorite launcher:className="com.android.contacts.activities.DialtactsActivity"
+		launcher:packageName="com.android.contacts" launcher:container="CONTAINER_NAVIGATEBAR" 
+		launcher:screen="0"	launcher:x="0" launcher:y="0" />
+	
+	<favorite launcher:className="com.android.email.activity.Welcome"
+		launcher:packageName="com.android.email"  launcher:container="CONTAINER_NAVIGATEBAR" 
+		launcher:screen="0" launcher:x="1" launcher:y="0" />
+		
+	<favorite launcher:className="com.android.browser.BrowserActivity"
+		launcher:packageName="com.android.browser"  launcher:container="CONTAINER_NAVIGATEBAR" 
+		launcher:screen="0" launcher:x="2" launcher:y="0" />
+	<favorite launcher:className="com.boatgo.browser.BrowserActivity"
+		launcher:packageName="com.boatgo.browser"  launcher:container="CONTAINER_NAVIGATEBAR" 
+		launcher:screen="0" launcher:x="2" launcher:y="0" />
+		
+		
+	<favorite launcher:className="com.android.music.MusicBrowserActivity"
+		launcher:packageName="com.android.music"  launcher:container="CONTAINER_NAVIGATEBAR" 
+		launcher:screen="0" launcher:x="3" launcher:y="0" />
+	<favorite launcher:className="com.v5music.YYMusicMain"
+		launcher:packageName="com.v5music"  launcher:container="CONTAINER_NAVIGATEBAR" 
+		launcher:screen="0" launcher:x="3" launcher:y="0" />
+		
+<!-- 	<favorite launcher:className="com.android.mms.ui.BootActivity" -->
+<!-- 		launcher:packageName="com.android.mms"  launcher:container="CONTAINER_NAVIGATEBAR"  -->
+<!-- 		launcher:screen="0" launcher:x="3" launcher:y="0"/> -->
+	
+
+	<!-- Far-right screen [4] -->
+	<favorite launcher:className="com.android.mms.ui.BootActivity"
+		launcher:packageName="com.android.mms"  launcher:container="CONTAINER_DESKTOP" 
+		launcher:screen="1" launcher:x="0" launcher:y="0"/>
+	
+	<!-- calendar -->	
+	<favorite launcher:packageName="com.android.calendar" launcher:container="CONTAINER_DESKTOP" 
+		launcher:className="com.android.calendar.AllInOneActivity"
+		launcher:screen="1"	launcher:x="1" launcher:y="0" />
+	
+	<!-- photos -->	
+	<favorite launcher:packageName="com.android.gallery3d" launcher:container="CONTAINER_DESKTOP" 
+		launcher:className="com.android.gallery3d.app.Gallery" 
+		launcher:screen="1"	launcher:x="2" launcher:y="0" />
+	<favorite launcher:packageName="com.cooliris.media" launcher:container="CONTAINER_DESKTOP" 
+		launcher:className="com.cooliris.media.Gallery" 
+		launcher:screen="1"	launcher:x="2" launcher:y="0" />
+	<favorite launcher:packageName="com.android.gallery" launcher:container="CONTAINER_DESKTOP" 
+		launcher:className="com.android.camera.GalleryPicker" 
+		launcher:screen="1"	launcher:x="2" launcher:y="0" />
+	<favorite launcher:packageName="com.silencecork.photography" launcher:container="CONTAINER_DESKTOP" 
+		launcher:className="com.silencecork.photography.activity.AlbumActivity" 
+		launcher:screen="1"	launcher:x="2" launcher:y="0" />
+		
+	
+	<!-- camera -->	
+	<favorite launcher:packageName="com.android.camera" launcher:container="CONTAINER_DESKTOP" 
+		launcher:className="com.android.camera.Camera"
+		launcher:screen="1"	launcher:x="3" launcher:y="0" />
+<!-- 	<favorite launcher:packageName="com.mediatek.camera" launcher:container="CONTAINER_DESKTOP"  -->
+<!-- 		launcher:className="com.mediatek.camera.Camera" -->
+<!-- 		launcher:screen="1"	launcher:x="2" launcher:y="0" /> -->
+
+	<!-- Video -->	
+	<favorite launcher:packageName="com.mediatek.videoplayer" launcher:container="CONTAINER_DESKTOP" 
+		launcher:className="com.mediatek.videoplayer.MovieListActivity"
+		launcher:screen="1"	launcher:x="0" launcher:y="1" />
+	
+	<!-- maps -->	
+	<favorite launcher:packageName="com.google.android.apps.maps" launcher:container="CONTAINER_DESKTOP" 
+		launcher:className="com.google.android.maps.MapsActivity"
+		launcher:screen="1"	launcher:x="1" launcher:y="1" />
+	<favorite launcher:packageName="com.baidu.BaiduMap" launcher:container="CONTAINER_DESKTOP" 
+		launcher:className="com.baidu.BaiduMap.BaiduMap"
+		launcher:screen="1"	launcher:x="1" launcher:y="1" />
+	
+	<!-- weather -->
+	<favorite launcher:packageName="com.iphonestyle.weather" launcher:container="CONTAINER_DESKTOP" 
+		launcher:className="com.iphonestyle.weather.activity.MainActivity"
+		launcher:screen="1"	launcher:x="2" launcher:y="1" />
+	<favorite launcher:packageName="com.aedesign.iphoneweather" launcher:container="CONTAINER_DESKTOP" 
+		launcher:className="com.aedesign.iphoneweather.activity.LaunchActivity"
+		launcher:screen="1"	launcher:x="2" launcher:y="1" />
+	<favorite launcher:packageName="com.youba.WeatherForecast" launcher:container="CONTAINER_DESKTOP" 
+		launcher:className="com.youba.WeatherForecast.WeatherForecastActivity"
+		launcher:screen="1"	launcher:x="2" launcher:y="1" />	
+		
+	<!-- passbook -->
+	<favorite launcher:packageName="com.android.passbook" launcher:container="CONTAINER_DESKTOP" 
+		launcher:className="com.android.passbook.MainActivity"
+		launcher:screen="1"	launcher:x="3" launcher:y="1" />	
+		
+	<!-- notes -->	
+	<favorite launcher:packageName="com.example.android.notepad" launcher:container="CONTAINER_DESKTOP" 
+		launcher:className="com.example.android.notepad.NotesList"
+		launcher:screen="1"	launcher:x="0" launcher:y="2" />
+	<favorite launcher:packageName="com.cooguo.memo" launcher:container="CONTAINER_DESKTOP" 
+		launcher:className="com.cooguo.memo.ui.MemoMain"
+		launcher:screen="1"	launcher:x="0" launcher:y="2" />
+	<favorite launcher:packageName="com.mediatek.notebook" launcher:container="CONTAINER_DESKTOP" 
+		launcher:className="com.mediatek.notebook.NotesList"
+		launcher:screen="1"	launcher:x="0" launcher:y="2" />
+	
+	<!-- todos -->	
+	<favorite launcher:packageName="com.mediatek.todos" launcher:container="CONTAINER_DESKTOP" 
+		launcher:className="com.mediatek.todos.TodosActivity"
+		launcher:screen="1"	launcher:x="1" launcher:y="2" />
+	
+	<!-- clock -->	
+	<favorite launcher:packageName="com.android.deskclock" launcher:container="CONTAINER_DESKTOP" 
+		launcher:className="com.android.deskclock.DeskClock"
+		launcher:screen="1"	launcher:x="2" launcher:y="2" />
+	<favorite launcher:packageName="com.aedesign.deskclock" launcher:container="CONTAINER_DESKTOP" 
+		launcher:className="com.aedesign.deskclock.DeskClockGroupActivity"
+		launcher:screen="1"	launcher:x="2" launcher:y="2" />
+	
+	<!-- Stock or  file manager  -->	
+	<favorite launcher:packageName="com.yahoo.mobile.client.android.finance" launcher:container="CONTAINER_DESKTOP" 
+		launcher:className="com.yahoo.mobile.client.android.finance.activity.Main"
+		launcher:screen="1"	launcher:x="3" launcher:y="2" />
+	<favorite launcher:packageName="com.qs.android.fileex" launcher:container="CONTAINER_DESKTOP" 
+		launcher:className="com.qs.android.fileex.ExplorerActivity"
+		launcher:screen="1"	launcher:x="3" launcher:y="2" />
+	<favorite launcher:packageName="com.mediatek.filemanager" launcher:container="CONTAINER_DESKTOP" 
+		launcher:className="com.mediatek.filemanager.FileManagerOperationActivity"
+		launcher:screen="1"	launcher:x="3" launcher:y="2" />
+		
+	<!-- books -->	
+	
+	<!-- iTures -->	
+	
+	<!-- app store -->	
+	<favorite launcher:packageName="com.android.vending" launcher:container="CONTAINER_DESKTOP" 
+		launcher:className="com.android.vending.AssetBrowserActivity"
+		launcher:screen="1"	launcher:x="2" launcher:y="3" />
+	<favorite launcher:packageName="com.yingyonghui.market" launcher:container="CONTAINER_DESKTOP" 
+		launcher:className="com.yingyonghui.market.ActivitySplash"
+		launcher:screen="1"	launcher:x="2" launcher:y="3" />
+	<favorite launcher:packageName="com.moz.appstore" launcher:container="CONTAINER_DESKTOP" 
+		launcher:className="com.moz.appstore.AppList"
+		launcher:screen="1"	launcher:x="2" launcher:y="3" />
+	
+	<!-- game center -->	
+	
+	
+	<!-- Settings -->	
+	<favorite launcher:packageName="com.android.settings" launcher:container="CONTAINER_DESKTOP" 
+		launcher:className="com.android.settings.Settings"
+		launcher:screen="1"	launcher:x="0" launcher:y="4" />
+	
+	<!-- folder -->
+	<folder launcher:container="CONTAINER_DESKTOP" launcher:title="@string/folder_tools"
+	    launcher:defaultId="1"
+		launcher:screen="2"	launcher:x="0" launcher:y="0" />
+	
+	<!-- contacts -->
+	<favorite launcher:packageName="com.android.contacts" launcher:container="CONTAINER_FOLDER1" 
+		launcher:className="com.android.contacts.QsContactsListActivity"
+		launcher:screen="0"	launcher:x="0" launcher:y="0" />
+	
+	<!-- calculator -->	
+	<favorite launcher:packageName="com.android.calculator2" launcher:container="CONTAINER_FOLDER1" 
+		launcher:className="com.android.calculator2.Calculator"
+		launcher:screen="0"	launcher:x="1" launcher:y="0" />
+	
+
+	<!-- SoundRecorder -->	
+	<favorite launcher:packageName="com.android.soundrecorder" launcher:container="CONTAINER_FOLDER1" 
+		launcher:className="com.android.soundrecorder.SoundRecorder"
+		launcher:screen="0"	launcher:x="2" launcher:y="0" />
+		
+		
+	
+
+
+	
+	
+	
+		
+		
+	<!-- vending -->	
+	
+	
+	
+	<!--  -->	
+<!-- 	<favorite launcher:packageName="com.taotektao"  launcher:container="CONTAINER_DESKTOP"  -->
+<!-- 		launcher:className="com.taotektao.MainActivity" -->
+<!-- 		launcher:screen="1"	launcher:x="2" launcher:y="3" /> -->
+
+</favorites>

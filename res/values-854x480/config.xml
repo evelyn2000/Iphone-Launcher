@@ -1,0 +1,5 @@
+<resources>
+	<integer name="config_cellLayoutRowsCount">5</integer>
+	<integer name="config_cellLayoutColumnCount">4</integer>
+	<bool name="config_supportLandscapeStyle" translatable="false">false</bool>
+</resources>

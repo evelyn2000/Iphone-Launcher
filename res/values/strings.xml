@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Manifest configuration. -->
+    <skip />
+    <!-- Do not translate. android:sharedUserId of this application. -->
+    <string name="sharedUserId" translate="false"><xliff:g id="x"></xliff:g></string>
+    <!-- Do not translate. android:process of this application. -->
+    <string name="process" translate="false"><xliff:g id="x"></xliff:g></string>
+    
+    <!-- General -->
+    <skip />
+    <!-- Application name -->
+    <string name="application_name">Launcher</string>
+    <!-- Name for all applications running as this uid. -->
+    <string name="uid_name">Android Core Apps</string>
+    <!-- Default folder name -->
+    <string name="folder_name">Folder</string>
+    <!-- Title of dialog that appears after user selects Wallpaper from menu -->
+    <string name="chooser_wallpaper">Select wallpaper from</string>
+    <!-- Button label on Wallpaper Gallery screen; user selects this button to set a specific wallpaper -->
+    <string name="wallpaper_instructions">Set wallpaper</string>
+    <!-- Option in "Select wallpaper from" dialog box -->
+    <string name="pick_wallpaper">Launcher Wallpapers</string>
+    <!-- Displayed when user selects a shortcut for an app that was uninstalled -->
+    <string name="activity_not_found">Application is not installed on your phone.</string>
+    <!-- List item for configuring the current wallpaper -->
+    <string name="configure_wallpaper">Configure...</string>
+
+    <!-- Folders -->
+    <skip />
+    <!-- Label of Folder name field in Rename folder dialog box -->
+    <string name="rename_folder_label">Folder name</string>
+    <!-- Title of dialog box -->
+    <string name="rename_folder_title">Rename folder</string>
+    <!-- Buttons in Rename folder dialog box -->
+    <string name="rename_action">OK</string>
+    <!-- Buttons in Rename folder dialog box -->
+    <string name="cancel_action">Cancel</string>
+
+    <!-- Shortcuts -->
+    <skip />
+    <!-- Title of dialog box -->
+    <string name="menu_item_add_item">Add to Home screen</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all apps -->
+    <string name="group_applications">Applications</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all shortcuts -->
+    <string name="group_shortcuts">Shortcuts</string>
+    <!-- Options in "Add to Home" dialog box; Title of the folder gadget -->
+    <string name="group_folder">New folder</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all live folders -->
+    <string name="group_live_folders">Folders</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all widgets/gadgets -->
+    <string name="group_widgets">Widgets</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of apps that can set the wallpaper-->
+    <string name="group_wallpapers">Wallpapers</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Folder widget-->
+    <string name="add_folder">Folder</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Clock widget-->
+    <string name="add_clock">Clock</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Picture frame widget-->
+    <string name="add_photo_frame">Picture frame</string>
+    <!-- Error message when user has filled a home screen, possibly not used -->
+    <string name="out_of_space">No more room on this Home screen.</string>
+    <!-- Message displayed when a shortcut is created by an external application -->
+    <string name="shortcut_installed">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" created.</string>
+    <!-- Message displayed when a shortcut is uninstalled by an external application -->
+    <string name="shortcut_uninstalled">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" was removed.</string>
+    <!-- Message displayed when an external application attemps to create a shortcut that already exists -->
+    <string name="shortcut_duplicate">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" already exists.</string>
+
+    <!-- Title of dialog when user is selecting shortcut to add to homescreen -->
+    <string name="title_select_shortcut">Select shortcut</string>
+    <!-- Title of dialog when user is selecting live folder to add to homescreen -->
+    <string name="title_select_live_folder">Select folder</string>
+
+    <!-- All applications label for accessibilty (spoken when the button gets focus). -->
+    <string name="all_apps_button_label">All applications</string>
+    <!-- Label for button in all applications label to go back home (to the workspace / desktop)
+         for accessibilty (spoken when the button gets focus). -->
+    <string name="all_apps_home_button_label">Home</string>
+
+    <!-- Menus items: -->
+    <skip />
+    <!-- Verb, menu item used to add an item on the desktop -->
+    <string name="menu_add">Add</string>
+    <!-- Noun, menu item used to set the desktop's wallpaper -->
+    <string name="menu_wallpaper">Wallpaper</string>
+    <!-- Verb, menu item used to initiate global search -->
+    <string name="menu_search">Search</string>
+    <!-- Noun, menu item used to bring down the notifications shade -->
+    <string name="menu_notifications">Notifications</string>
+    <!-- Noun, menu item used to show the gestures settings -->
+    <string name="menu_gestures">Gestures</string>
+    <!-- Noun, menu item used to show the system settings -->
+    <string name="menu_settings">Settings</string>
+
+    <!-- Permissions: -->
+    <skip />
+    <!-- Permission short label -->
+    <string name="permlab_install_shortcut">install shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_install_shortcut">Allows an application to add
+        shortcuts without user intervention.</string>
+    <!-- Permission short label -->
+    <string name="permlab_uninstall_shortcut">uninstall shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_uninstall_shortcut">Allows an application to remove
+        shortcuts without user intervention.</string>
+    <!-- Permission short label -->
+    <string name="permlab_read_settings">read Home settings and shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_read_settings">Allows an application to read the settings and
+        shortcuts in Home.</string>
+    <!-- Permission short label -->
+    <string name="permlab_write_settings">write Home settings and shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_write_settings">Allows an application to change the settings and
+        shortcuts in Home.</string>
+
+    <!-- Widgets: -->
+    <skip />    
+
+    <!-- Text to show user in place of a gadget when we can't display it properly -->
+    <string name="gadget_error_text">Problem loading widget</string>
+
+    <!-- URL to use when detecting the current default browser. 
+         Attempts to mimic homepage_base in Browser; {CID} should be replaced
+         by the client-id, e.g. "android-google". -->
+    <string name="default_browser_url" translatable="false">
+        http://www.google.com/m?client=ms-{CID}&amp;source=android-home-hotseat</string>
+
+	<!-- add by zf -qs -->
+  	<string name="delete_notification">If delete "%s"，it\'s data will be deleted too.</string>
+    <string name="delete_title">Delete "%s"</string>
+    <string name="delete_confirm_button_text">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="load">Loading...</string>
+<!--     <string name="app_store">App Store</string> -->
+    
+    <!-- search strings -->
+<string name="app_name">Search</string>
+
+    <!-- Search widget -->
+    <string name="search_widget">Search</string>
+
+    <!-- Search widget config -->
+    <string name="search_widget_config_ok">OK</string>
+
+    <!-- Source selector -->
+    <string name="corpus_selection_heading">Search</string>
+    <string name="corpus_selection_edit_items">Add / Remove</string>
+    <string name="corpus_label_global">All</string>
+
+    <!-- Name of the combined Web source shown in QSB -->
+    <string name="corpus_label_web">Web</string>
+    <!-- Description of the combined Web source shown in QSB -->
+    <string name="corpus_description_web">Web search, bookmarks and browser history</string>
+
+    <!-- Name of the Apps source shown in QSB -->
+    <string name="corpus_label_apps">Apps</string>
+    <!-- Settings description for the Apps source shown in QSB -->
+    <string name="corpus_description_apps">Names of installed applications</string>
+    <!-- Search hint for the Apps source shown in QSB -->
+    <string name="corpus_hint_apps">Search Apps</string>
+
+    <!-- Name of the Apps and Market source shown in QSB -->
+    <string name="corpus_label_apps_market">Apps and Market</string>
+    <!-- Settings description for the Apps and Market source shown in QSB -->
+    <string name="corpus_description_apps_market">Installed Apps and Apps from Market</string>
+    <!-- Search hint for the Apps source shown in QSB -->
+    <string name="corpus_hint_apps_market">Search Apps and Market</string>
+
+
+    <!-- Search settings stuff -->
+
+    <!-- Search settings menu item -->
+    <!--  <string name="menu_settings">Search settings</string>-->
+
+    <!-- Search settings title -->
+    <string name="search_settings">Search settings</string>
+
+    <!-- Title for 'web search' category of search settings -->
+    <string name="web_search_category_title">Web</string>
+
+    <!-- Title for 'system search' category of search settings -->
+    <string name="system_search_category_title">Phone</string>
+
+    <!-- Title and summary for 'search sources' link for system search -->
+    <string name="search_sources">Searchable items</string>
+    <string name="search_sources_summary">Choose what to search on the phone</string>
+
+    <!-- Title and summary used for the option to clear search shortcuts from the system
+         search history -->
+    <string name="clear_shortcuts">Clear shortcuts</string>
+    <string name="clear_shortcuts_summary">Clear shortcuts to recently chosen search suggestions</string>
+
+    <!-- Strings used in the dialog shown after choosing the 'clear search shortcuts' setting. -->
+    <string name="clear_shortcuts_prompt">"This will clear all shortcuts to recently chosen search suggestions."\n\n"(To clear your Browser history, use the Browser's settings.)"</string>
+    <string name="agree">OK</string>
+    <string name="disagree">Cancel</string>
+
+
+    <!-- Search source label for the Google search source. -->
+    <string name="google_search_label">Google</string>
+
+    <!-- The search activity label. -->
+    <string name="google_app_label">Google Search</string>
+
+    <!-- This is the hint text shown in the search widget, before text is entered. -->
+    <!-- This translation MUST MATCH the string "search_hint" which is found in
+         Home/res/values/strings.xml -->
+    <string name="google_search_hint">Google Search</string>
+
+    <!-- Search settings description for the Google search source. -->
+    <string name="google_search_description">Google search suggestions</string>
+
+    <!-- Settings category title for 'Google search settings' settings activity -->
+    <string name="google_search_settings">Google search</string>
+
+    <!-- Title and summaries for 'show web suggestions' check box setting -->
+    <string name="google_show_web_suggestions">Show web suggestions</string>
+    <string name="google_show_web_suggestions_summary_enabled">Show web suggestions as you type</string>
+    <string name="google_show_web_suggestions_summary_disabled">Don\'t show web suggestions as you type</string>
+
+    <!-- Title for Voice Search hints bubble -->
+    <string name="voice_search_hint_title">Try saying:</string>
+    <!-- Starting quotation marks of the voice search hint -->
+    <string name="voice_search_hint_quotation_start">“</string>
+    <!-- Ending quotation marks of the voice search hint -->
+    <string name="voice_search_hint_quotation_end">”</string>
+
+    <!-- Note that this is the standard search url.  It uses the current locale for language -->
+    <!-- (%1$s) and country (%2$s) and shouldn't need to be replaced by locale or mcc selected -->
+    <!-- resources. -->
+    <!-- Any changes to this (especially in terms of adding/removing the MCC-specific flavors) -->
+    <!-- should be mirrored by changes in GenieProvider. -->
+    <!-- Do not translate.  This string is an internal URI, not seen in the UI. -->
+    <string name="google_search_base" translatable="false">
+        http://www.google.com/m?hl=%1$s&amp;gl=%2$s</string>
+        
+    <string name="orange_client_id" translatable="false">
+        client=ms-android-orange-%1$s</string>
+
+    <!-- Note that this is the standard suggest url.  It uses the current locale for language -->
+    <!-- (t%1$s) and country (%2$s) and should not need to be replaced by locale or mcc -->
+    <!-- selected resources. -->
+    <!-- Any changes to this (especially in terms of adding/removing the MCC-specific flavors) -->
+    <!-- should be mirrored by changes in GenieProvider -->
+    <!-- Do not translate.  This string is an internal URI, not seen in the UI. -->
+    <string name="google_suggest_base" translatable="false">
+        http://www.google.com/complete/search?hl=%1$s&amp;gl=%2$s&amp;client=android&amp;q=</string>
+
+    <!-- Search Engine Settings label -->
+    <string name="pref_content_search_engine">Select a search engine</string>
+    <!-- Settings summary -->
+    <string name="pref_content_search_engine_consistency">Search engine consistency</string>
+    <!-- Settings category title for 'Search suggestion settings' settings activity -->
+    <string name="search_suggestion_settings">Web search suggestions</string>    
+    <!-- Settings category title for 'Search engine setting' settings activity -->
+    <string name="search_engine_settings">Search engine</string>
+    <string name="pref_search_engine_unify">Unify search engine</string>
+    <string name="pref_search_engine_unify_summary">Apply search engine change to browser</string>
+    
+    <string name="folder_tools">Tools</string>
+    
+    <string name="app_maps">Maps</string>
+    <string name="app_youtube">YouTube</string>
+    <string name="app_ibooks">iBooks</string>
+    <string name="app_weather">Weather</string>
+    <string name="app_reminders">Reminders</string>
+    <string name="app_stock">Stocks</string>
+    <string name="app_filemanager">filemanager</string>
+    <string name="app_download">download</string>
+    <string name="app_radio">radio</string>
+    <string name="app_youku">YouKu</string>
+    <string name="app_iRead">iRead</string>
+    <string name="app_browser">Safari</string>
+    <string name="app_store">App Store</string>
+    <string name="app_photos">Photo</string>
+</resources>

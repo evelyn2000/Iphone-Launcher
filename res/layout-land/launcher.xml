@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project Licensed under the 
+	Apache License, Version 2.0 (the "License"); you may not use this file except 
+	in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 
+	Unless required by applicable law or agreed to in writing, software distributed 
+	under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES 
+	OR CONDITIONS OF ANY KIND, either express or implied. See the License for 
+	the specific language governing permissions and limitations under the License.
+-->
+
+<com.android.iphonelauncher.DragLayer xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.android.iphonelauncher"
+    android:id="@+id/drag_layer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- The workspace contains 3 screens of cells -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/workspace_mask_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="#AF000000"
+            android:visibility="gone" />
+
+        <com.android.iphonelauncher.Workspace
+            android:id="@+id/workspace"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingRight="@dimen/iphone_navigatebar_height"
+            launcher:defaultScreen="1"
+            launcher:container="CONTAINER_DESKTOP" >
+
+            <include
+                android:id="@+id/cell1"
+                layout="@layout/iphone_searchscreen" />
+
+            <include
+                android:id="@+id/cell2"
+                layout="@layout/workspace_screen" />
+
+            <include
+                android:id="@+id/cell3"
+                layout="@layout/workspace_screen" />
+
+          <!--  <include
+                android:id="@+id/cell4"
+                layout="@layout/workspace_screen" />
+
+            <include
+                android:id="@+id/cell5"
+                layout="@layout/workspace_screen" /> lijia delete-->
+
+        </com.android.iphonelauncher.Workspace>
+
+        <ImageView
+            android:id="@+id/workspace_mask_top"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="#AF000000"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="@dimen/iphone_navigatebar_height"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|right" 
+        android:id="@+id/navigate_container">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/dock_bg" />
+
+        <com.android.iphonelauncher.Workspace
+            android:id="@+id/navigatebar"
+            android:layout_width="@dimen/workspace_cell_height"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            launcher:defaultScreen="0"
+            launcher:container="CONTAINER_NAVIGATEBAR" >
+
+            <com.android.iphonelauncher.CellLayout
+                android:layout_width="@dimen/workspace_cell_height"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|right"
+                launcher:cellHeight="@dimen/workspace_cell_height"
+                launcher:cellWidth="@dimen/workspace_cell_width"
+                android:hapticFeedbackEnabled="false"
+                launcher:isInNavigate="true"
+                launcher:longAxisCells="1"
+                launcher:longAxisEndPadding="0dip"
+                launcher:longAxisStartPadding="0dip"
+                launcher:shortAxisCells="4"
+                launcher:shortAxisEndPadding="0dip"
+                launcher:shortAxisStartPadding="0dip" />
+        </com.android.iphonelauncher.Workspace>
+
+        <com.android.ui.IphoneIndicator
+            android:id="@+id/iphoneindicator"
+            android:layout_width="@dimen/iphone_indicator_size"
+            android:layout_height="match_parent" >
+        </com.android.ui.IphoneIndicator>
+    </RelativeLayout>
+
+
+</com.android.iphonelauncher.DragLayer>

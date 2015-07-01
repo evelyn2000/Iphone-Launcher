@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="application_name">ลอนเชอร์</string>
+    <string name="uid_name">แอปส์หลักของ Android</string>
+    <string name="folder_name">โฟลเดอร์</string>
+    <string name="chooser_wallpaper">เลือกวอลล์เปเปอร์จาก</string>
+    <string name="wallpaper_instructions">ตั้งค่าวอลล์เปเปอร์</string>
+    <string name="pick_wallpaper">วอลล์เปเปอร์</string>
+    <string name="activity_not_found">แอปพลิเคชั่นไม่ได้ติดตั้งบนโทรศัพท์ของคุณ</string>
+    <string name="configure_wallpaper">กำหนดค่า...</string>
+    <string name="rename_folder_label">ชื่อโฟลเดอร์</string>
+    <string name="rename_folder_title">เปลี่ยนชื่อโฟลเดอร์</string>
+    <string name="rename_action">ตกลง</string>
+    <string name="cancel_action">ยกเลิก</string>
+    <string name="menu_item_add_item">เพิ่มลงในหน้าจอหลัก</string>
+    <string name="group_applications">แอปพลิเคชั่น</string>
+    <string name="group_shortcuts">ทางลัด</string>
+    <string name="group_folder">โฟลเดอร์ใหม่</string>
+    <string name="group_live_folders">โฟลเดอร์</string>
+    <string name="group_widgets">วิดเจ็ตส์</string>
+    <string name="group_wallpapers">วอลล์เปเปอร์</string>
+    <string name="add_folder">โฟลเดอร์</string>
+    <string name="add_clock">นาฬิกา</string>
+    <string name="add_photo_frame">เฟรมภาพ</string>
+    <string name="out_of_space">ไม่มีพื้นที่อีกแล้วบนหน้าจอหลักนี้</string>
+    <string name="shortcut_installed">"ทางลัด \"<xliff:g id="NAME">%s</xliff:g>\" ถูกสร้างแล้ว"</string>
+    <string name="shortcut_uninstalled">"ทางลัด \"<xliff:g id="NAME">%s</xliff:g>\" ถูกลบแล้ว"</string>
+    <string name="shortcut_duplicate">"ทางลัด \"<xliff:g id="NAME">%s</xliff:g>\" มีอยู่แล้ว"</string>
+    <string name="title_select_shortcut">เลือกทางลัด</string>
+    <string name="title_select_live_folder">เลือกโฟลเดอร์</string>
+    <string name="all_apps_button_label">แอปพลิเคชั่นทั้งหมด</string>
+    <string name="all_apps_home_button_label">หน้าหลัก</string>
+    <string name="menu_add">เพิ่ม</string>
+    <string name="menu_wallpaper">วอลล์เปเปอร์</string>
+    <string name="menu_search">ค้นหา</string>
+    <string name="menu_notifications">การแจ้งเตือน</string>
+    <string name="menu_gestures">ท่าทาง</string>
+    <string name="menu_settings">การตั้งค่า</string>
+    <string name="permlab_install_shortcut">ติดตั้งทางลัด</string>
+    <string name="permdesc_install_shortcut">อนุญาตให้แอปพลิเคชั่นเพิ่มทางลัดโดยไม่ต้องอาศัยการแทรกแซงจากผู้ใช้</string>
+    <string name="permlab_uninstall_shortcut">ถอนการติดตั้งทางลัด</string>
+    <string name="permdesc_uninstall_shortcut">อนุญาตให้แอปพลิเคชั่นลบทางลัดโดยไม่ต้องให้ผู้ใช้แทรกแซง</string>
+    <string name="permlab_read_settings">อ่านการตั้งค่าและทางลัดหน้าหลัก</string>
+    <string name="permdesc_read_settings">อนุญาตให้แอปพลิเคชั่นอ่านการตั้งค่าและทางลัดในหน้าหลัก</string>
+    <string name="permlab_write_settings">เขียนการตั้งค่าและทางลัดหน้าหลัก</string>
+    <string name="permdesc_write_settings">อนุญาตให้แอปพลิเคชั่นเปลี่ยนแปลงการตั้งค่าและทางลัดในหน้าหลัก</string>
+    <string name="gadget_error_text">ปัญหาในการโหลดวิดเจ็ต</string>
+
+    <string name="cancel">ยกเลิก</string>
+    <string name="load">โหลด</string>
+
+    <string name="app_maps">Maps</string>
+    <string name="app_youtube">YouTube</string>
+    <string name="app_ibooks">iBooks</string>
+    <string name="app_weather">สภาพอากาศ</string>
+    <string name="app_reminders">เตือน</string>
+    <string name="app_stock">หุ้น</string>
+    <string name="app_filemanager">filemanager</string>
+    <string name="app_download">download</string>
+    <string name="app_radio">radio</string>
+    <string name="app_youku">YouKu</string>
+    <string name="app_iRead">iRead</string>
+    <string name="app_photos">รูปภาพ</string>
+</resources>
+

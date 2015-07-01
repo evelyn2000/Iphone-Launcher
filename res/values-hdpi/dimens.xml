@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project Licensed under the 
+	Apache License, Version 2.0 (the "License"); you may not use this file except 
+	in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 
+	Unless required by applicable law or agreed to in writing, software distributed 
+	under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES 
+	OR CONDITIONS OF ANY KIND, either express or implied. See the License for 
+	the specific language governing permissions and limitations under the License. -->
+
+<resources>
+<!-- 	<dimen name="workspace_cell_width">75dip</dimen> -->
+<!-- 	<dimen name="workspace_cell_height">85dip</dimen> -->
+<!-- 	<dimen name="iphone_mask_size">60dip</dimen> -->
+<!-- 	<dimen name="iphone_navigatebar_height">110.0dip</dimen> -->
+<!-- 	<dimen name="iphone_indicator_size">5dip</dimen> -->
+<!-- 	<dimen name="iphone_folder_icon_icon_width">14.0dip</dimen> -->
+<!-- 	<dimen name="iphone_folder_icon_icon_height">14.0dip</dimen> -->
+<!-- 	<dimen name="iphone_folder_icon_left_padding">7.0dip</dimen> -->
+<!-- 	<dimen name="iphone_folder_icon_top_padding">7.0dip</dimen> -->
+<!-- 	<dimen name="iphone_folder_icon_row_margin">2.0dip</dimen> -->
+<!-- 	<dimen name="iphone_folder_icon_column_margin">2.0dip</dimen> -->
+<!-- 	<dimen name="iphone_reflection_topmargin">6.0dip</dimen> -->
+<!-- 	<dimen name="iphone_icon_dragover_rect_w">20dip</dimen> -->
+<!-- 	<dimen name="iphone_icon_dragover_rect_h">30dip</dimen> -->
+<!-- 	<dimen name="iphone_calendar_week_textsize">14dip</dimen> -->
+<!-- 	<dimen name="iphone_calendar_day_textsize">40dip</dimen> -->
+</resources>

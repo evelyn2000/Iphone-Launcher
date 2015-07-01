@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project Licensed under the 
+	Apache License, Version 2.0 (the "License"); you may not use this file except 
+	in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 
+	Unless required by applicable law or agreed to in writing, software distributed 
+	under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES 
+	OR CONDITIONS OF ANY KIND, either express or implied. See the License for 
+	the specific language governing permissions and limitations under the License. -->
+
+
+<toppackages
+	xmlns:launcher="http://schemas.android.com/apk/res/com.android.iphonelauncher">
+	<app launcher:topPackageName="com.android.calendar"
+		launcher:topClassName="com.android.calendar.LaunchActivity"
+		launcher:topOrder="0" />
+	<app launcher:topPackageName="com.aedesign.deskclock"
+		launcher:topClassName="com.aedesign.deskclock.DeskClockGroupActivity"
+		launcher:topOrder="1" />
+	<app launcher:topPackageName="com.android.deskclock"
+		launcher:topClassName="com.android.deskclock.DeskClock"
+		launcher:topOrder="1" />
+	<app launcher:topPackageName="com.cooliris.media"
+		launcher:topClassName="com.cooliris.media.Gallery" launcher:topOrder="2" />
+	<app launcher:topPackageName="com.mediatek.camera"
+		launcher:topClassName="com.mediatek.camera.Camera" launcher:topOrder="3" />
+	<app launcher:topPackageName="com.example.android.notepad"
+		launcher:topClassName="com.example.android.notepad.NotesList"
+		launcher:topOrder="4" />
+	<app launcher:topPackageName="com.qs.android.fileex"
+		launcher:topClassName="com.qs.android.fileex.ExplorerActivity"
+		launcher:topOrder="5" />
+	<app launcher:topPackageName="com.google.android.apps.maps"
+		launcher:topClassName="com.google.android.maps.MapsActivity"
+		launcher:topOrder="6" />
+	<app launcher:topPackageName="com.aedesign.iphoneweather"
+		launcher:topClassName="com.aedesign.iphoneweather.activity.LaunchActivity"
+		launcher:topOrder="7" />
+	<app launcher:topPackageName="com.android.vending"
+		launcher:topClassName="com.android.vending.AssetBrowserActivity"
+		launcher:topOrder="8" />
+	<app launcher:topPackageName="com.android.calculator2"
+		launcher:topClassName="com.android.calculator2.Calculator"
+		launcher:topOrder="9" />
+	<app launcher:topPackageName="com.android.contacts"
+		launcher:topClassName="com.android.contacts.DialtactsContactsEntryActivity"
+		launcher:topOrder="10" />
+	<app launcher:topPackageName="com.taotektao" launcher:topClassName="com.taotektao.MainActivity"
+		launcher:topOrder="11" />
+	<app launcher:topPackageName="com.android.settings"
+		launcher:topClassName="com.android.settings.Settings"
+		launcher:topOrder="12" />
+		
+	<app launcher:topPackageName="com.android.contacts"
+		launcher:topClassName="com.android.contacts.DialtactsActivity"
+		launcher:topOrder="13" />
+	<app launcher:topPackageName="com.android.browser"
+		launcher:topClassName="com.android.browser.BrowserActivity"
+		launcher:topOrder="14" />
+	<app launcher:topPackageName="com.android.music" launcher:topClassName="com.android.music.MusicBrowserActivity"
+		launcher:topOrder="15" />
+	<app launcher:topPackageName="com.android.mms"
+		launcher:topClassName="com.android.mms.ui.ConversationList"
+		launcher:topOrder="16" />
+</toppackages>
+

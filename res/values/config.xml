@@ -1,0 +1,44 @@
+<resources>
+	<integer name="config_allAppsFadeInTime">200</integer>
+	<integer name="config_allAppsFadeOutTime">200</integer>
+	<integer name="config_allAppsBatchLoadDelay">0</integer>
+	<integer name="config_allAppsBatchSize">0</integer>
+	<integer name="config_cellLayoutRowsCount">4</integer>
+	<integer name="config_cellLayoutColumnCount">4</integer>
+	<bool name="config_supportLandscapeStyle" translatable="false">false</bool>
+	
+	<!-- Names of corpora that are enabled by default in QSB. For external single-source 
+		corpora, the corpus name is the component name of the searchable activity. -->
+	<string-array name="default_corpora" translatable="false">
+		<item>web</item>
+		<item>apps</item>
+		<item>com.android.contacts/.SearchResultsActivity</item>
+		<item>com.android.providers.applications/.ApplicationLauncher</item>
+	</string-array>
+
+	<!-- Names of corpora that are not shown in the corpus selector, even if 
+		they are enabled in Searchable Items. -->
+	<string-array name="hidden_corpora" translatable="false">
+	</string-array>
+
+	<!-- The component name of the installed apps source used in QSB -->
+	<string name="installed_apps_component" translatable="false">com.android.providers.applications/.ApplicationLauncher
+	</string>
+
+	<!-- The component name of the browser bookmarks and history source used 
+		in QSB -->
+	<string name="browser_search_component" translatable="false">com.android.browser/.BookmarkSearch
+	</string>
+
+	<!-- The component name of the activity that search intents in the Apps 
+		corpus are sent to. If not set, Apps search intents are sent to the Apps 
+		suggestion source. -->
+	<string name="apps_search_activity" translatable="false"></string>
+
+	<!-- Number of suggestions slots that are visible above the onscreen keyboard. 
+		These slots will be shared among the default sources. -->
+	<integer name="num_suggestions_above_keyboard">4</integer>
+
+	    
+    <bool name="config_long_week_text" translatable="false">false</bool>
+</resources>

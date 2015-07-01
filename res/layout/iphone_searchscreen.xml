@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.ui.SearchScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:hapticFeedbackEnabled="false" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/iphone_textfield_search_empty_default" >
+
+            <com.android.quicksearchbox.ui.QueryTextView
+                android:id="@+id/search_src_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:background="@null"
+                android:clickable="true"
+                android:ellipsize="end"
+                android:focusable="true"
+                android:gravity="center_vertical|left"
+                android:imeOptions="actionGo"
+                android:inputType="text|textAutoComplete"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <view
+            android:id="@+id/suggestions"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/iphone_navigatebar_height"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginRight="20.0dip"
+            android:layout_marginTop="5.0dip"
+            android:background="#FFFFFFFF"
+            class="com.android.quicksearchbox.ui.SuggestionsView" >
+        </view>
+    </LinearLayout>
+
+</com.android.ui.SearchScreen>

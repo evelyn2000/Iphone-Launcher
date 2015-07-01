@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="application_name">Trình kh.động</string>
+    <string name="uid_name">Ứng dụng lõi Android</string>
+    <string name="folder_name">T.mục</string>
+    <string name="chooser_wallpaper">Chọn hình nền từ</string>
+    <string name="wallpaper_instructions">Cài hình nền</string>
+    <string name="pick_wallpaper">Hình nền</string>
+    <string name="activity_not_found">Chưa cài đặt ứng dụng trên ĐT của bạn.</string>
+    <string name="configure_wallpaper">Cài đặt...</string>
+    <string name="rename_folder_label">Tên thư mục</string>
+    <string name="rename_folder_title">Đổi tên thư mục</string>
+    <string name="rename_action">OK</string>
+    <string name="cancel_action">Hủy</string>
+    <string name="menu_item_add_item">Thêm vào m.hình chính</string>
+    <string name="group_applications">Ứng dụng</string>
+    <string name="group_shortcuts">Phím tắt</string>
+    <string name="group_folder">Thư mục mới</string>
+    <string name="group_live_folders">Thư mục</string>
+    <string name="group_widgets">Các widget</string>
+    <string name="group_wallpapers">Hình nền</string>
+    <string name="add_folder">Thư mục</string>
+    <string name="add_clock">Đồng hồ</string>
+    <string name="add_photo_frame">Khung hình</string>
+    <string name="out_of_space">Không còn chỗ trống trên m.hình chính này.</string>
+    <string name="shortcut_installed">"Đã tạo phím tắt \"<xliff:g id="NAME">%s</xliff:g>\"."</string>
+    <string name="shortcut_uninstalled">"Đã xóa phím tắt \"<xliff:g id="NAME">%s</xliff:g>\"."</string>
+    <string name="shortcut_duplicate">"Phím tắt \"<xliff:g id="NAME">%s</xliff:g>\" đã có."</string>
+    <string name="title_select_shortcut">Chọn phím tắt</string>
+    <string name="title_select_live_folder">Chọn thư mục</string>
+    <string name="all_apps_button_label">Mọi ứng dụng</string>
+    <string name="all_apps_home_button_label">Trang chủ</string>
+    <string name="menu_add">Thêm</string>
+    <string name="menu_wallpaper">Hình nền</string>
+    <string name="menu_search">Tìm kiếm</string>
+    <string name="menu_notifications">Thông báo</string>
+    <string name="menu_gestures">Thao tác</string>
+    <string name="menu_settings">Cài đặt</string>
+    <string name="permlab_install_shortcut">c.đặt các phím tắt</string>
+    <string name="permdesc_install_shortcut">Cho phép ứ.dụng thêm các p.tắt mà không can thiệp đến ng.dùng.</string>
+    <string name="permlab_uninstall_shortcut">gỡ bỏ c.đặt các p.tắt</string>
+    <string name="permdesc_uninstall_shortcut">Cho phép ứ.dụng xóa các p.tắt mà không can thiệp đến ng.dùng.</string>
+    <string name="permlab_read_settings">đọc các c.đặt và p.tắt Trang chủ</string>
+    <string name="permdesc_read_settings">Cho phép ứng dụng đọc các c.đặt và phím tắt trong Trang chủ.</string>
+    <string name="permlab_write_settings">chép các c.đặt và p.tắt Trang chủ</string>
+    <string name="permdesc_write_settings">Cho phép ứng dụng thay đổi các c.đặt và phím tắt trong Trang chủ.</string>
+    <string name="gadget_error_text">Sự cố tải widget</string>
+
+    <string name="cancel">Hủy</string>
+
+    <string name="app_maps">Maps</string>
+    <string name="app_youtube">YouTube</string>
+    <string name="app_ibooks">iBooks</string>
+    <string name="app_weather">Thời tiết</string>
+    <string name="app_reminders">Lời nhắc</string>
+    <string name="app_stock">Chứng khoán</string>
+    <string name="app_filemanager">filemanager</string>
+    <string name="app_download">download</string>
+    <string name="app_radio">radio</string>
+    <string name="app_youku">YouKu</string>
+    <string name="app_iRead">iRead</string>
+    <string name="app_photos">ảnh</string>
+</resources>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="iphone_navigate" translatable="false">
+		<item>intent:#Intent;action=android.intent.action.MAIN;component=com.android.contacts/.DialtactsActivity;end
+		</item>
+		<item>intent:#Intent;action=android.intent.action.MAIN;component=com.android.browser/.BrowserActivity;end
+		</item>
+		<item>intent:#Intent;action=android.intent.action.MAIN;component=com.android.music/.MusicBrowserActivity;end
+		</item>
+		<item>intent:#Intent;action=android.intent.action.MAIN;component=com.android.mms/.ui.ConversationList;end
+		</item>
+	</string-array>
+</resources>
